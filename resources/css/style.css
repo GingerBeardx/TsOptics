@@ -35,6 +35,10 @@ div {
   width: 960px;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 .name {
   align-items: center;
   display: flex;
@@ -151,7 +155,6 @@ footer {
 
   .main-header {
     height: 22rem;
-
   }
 
   .slogan {
@@ -159,5 +162,103 @@ footer {
     left: -2rem;
     padding: 0.75rem 4rem;
     top: 5rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .box, .box-head {
+    padding: .5rem 0;
+    width: 100%;
+  }
+
+  .box-head {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .box h2{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .content {
+    font-size: 0.77rem;
+    margin: 1rem .5rem 4rem .5rem;
+  }
+
+  .general-info {
+    flex-direction: column;
+  }
+
+  .h1-text {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-header {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+  .name span {
+    display: none;
+  }
+
+  .normal-nav {
+    display: none;
+  }
+
+  .product {
+    justify-content: center;
+    margin: auto;
+  }
+
+  .products {
+    flex-direction: column;
+    margin: 3.77rem 0;
+  }
+  .product img {
+    padding-bottom: 1rem;
+  }
+
+  .slogan {
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    left: auto;
+    padding: 1rem 0;
+    right: auto;
+    top: 9rem;
+    width: 100%;
+  }
+
+  .foot {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+    margin: 0;
+  }
+
+  .foot img {
+    margin-left: 0;
+  }
+
+  footer {
+    justify-content: center;
+  }
+
+  footer span {
+    display: none;
+  }
+
+  .philo {
+    margin-right: 0;
   }
 }
