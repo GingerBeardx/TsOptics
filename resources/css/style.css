@@ -7,7 +7,6 @@ html {
 }
 
 div {
-  border: 1px blue solid;
   display: block;
 }
 .main-header {
@@ -95,4 +94,46 @@ div {
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+/* general info styles */
+.general-info {
+  display: flex;
+}
+
+.box {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+  text-transform: uppercase;
+  width: 10rem;
+}
+
+.box-head {
+  width: 35%;
+}
+
+.content {
+  margin-top: 1rem;
+}
+
+.philo {
+  margin-right: 5%
+}
+/* footer styles */
+footer {
+  background-color: azure;
+  margin-top: 5rem;
+}
+
+.foot {
+  background-color: azure;
+  justify-content: flex-start;
+  margin-top: 0;
+  padding: 4rem;
+}
+
+.foot span {
+  margin-left: 1rem;
 }
