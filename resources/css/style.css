@@ -16,7 +16,7 @@ div {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  height: 30em;
+  height: 30rem;
   margin: auto;
 }
 .container {
@@ -31,8 +31,8 @@ div {
   background-color: cadetblue;
   display: flex;
   justify-content: space-between;
-  margin-top: 1em;
-  padding: 1em 0;
+  margin-top: 1rem;
+  padding: 1rem 0;
   width: 960px;
 }
 
@@ -42,16 +42,57 @@ div {
 }
 
 .logo img {
-  height: 1.5em;
-  margin-left: 2em;
+  height: 1.5rem;
+  margin-left: 2rem;
 }
 
 .name span {
   color: white;
-  padding-left: 1em;
+  padding-left: 1rem;
 }
 
 .links span {
   color: white;
-  padding-right: 2em;
+  padding-right: 2rem;
+}
+
+.slogan {
+  background-color: white;
+  float: right;
+  font-size: 2rem;
+  font-weight: 800;
+  left: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  position: relative;
+  text-transform: uppercase;
+  top: 10rem;
+}
+
+/* Products styling */
+.products {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.product {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+  justify-content: space-between;
+  margin: 0 3rem;
+  width: 5rem;
+}
+
+.product img {
+  width: 3.5rem;
+}
+
+.boast {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
